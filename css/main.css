@@ -19,4 +19,8 @@
     .skill{
         @apply rounded-full border border-btn-color text-base px-2 py-1 text-nowrap;
     }
+
+    .course{
+        @apply text-sec-text-color rounded-full border border-sec-text-color px-4 py-2 text-nowrap;
+    }
 }
