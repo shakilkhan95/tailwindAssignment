@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .nav-item{
+        @apply text-sec-text-color hover:text-btn-color hover:underline transition-all duration-300 font-medium;
+    }
+
+    .btn-primary{
+        @apply bg-btn-color text-white py-2 px-4 rounded-md font-medium outline-none border-2 border-btn-color hover:bg-transparent hover:text-btn-color transition-all duration-300;
+    }
+}
