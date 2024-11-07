@@ -11,4 +11,8 @@
     .btn-primary{
         @apply bg-btn-color text-white py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-md outline-none border-2 border-btn-color hover:bg-transparent hover:text-btn-color transition-all duration-300 text-nowrap;
     }
+
+    .btn-secondary{
+        @apply bg-white text-sec-text-color py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-md outline-none border-2 border-gray-300 hover:bg-btn-color hover:text-white hover:border-btn-color transition-all duration-300 text-nowrap;
+    }
 }
