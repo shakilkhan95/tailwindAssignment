@@ -14,6 +14,7 @@ module.exports = {
         'main-text-color': '#181818',
         'sec-text-color': '#072125',
         'third-color': '#00FF84',
+        'fourth-color': '#F9CCC7',
         'btn-color': '#F44335'
       }
     },
