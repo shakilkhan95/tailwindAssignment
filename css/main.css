@@ -9,6 +9,6 @@
     }
 
     .btn-primary{
-        @apply bg-btn-color text-white py-2 px-4 rounded-md font-medium outline-none border-2 border-btn-color hover:bg-transparent hover:text-btn-color transition-all duration-300;
+        @apply bg-btn-color text-white py-0 sm:py-1 md:py-2 px-1 sm:px-2 md:px-4 rounded-md outline-none border-2 border-btn-color hover:bg-transparent hover:text-btn-color transition-all duration-300 text-nowrap;
     }
 }
