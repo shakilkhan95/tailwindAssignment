@@ -17,6 +17,10 @@ module.exports = {
         'fourth-color': '#F9CCC7',
         'btn-color': '#F44335',
         'card-bg': '#2D3142'
+      },
+
+      backgroundImage: { 
+        'bottom-cover': "url('/assets/img/bottom-cover.png')"
       }
     },
   },
