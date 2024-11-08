@@ -15,7 +15,8 @@ module.exports = {
         'sec-text-color': '#072125',
         'third-color': '#00FF84',
         'fourth-color': '#F9CCC7',
-        'btn-color': '#F44335'
+        'btn-color': '#F44335',
+        'card-bg': '#2D3142'
       }
     },
   },
