@@ -16,7 +16,9 @@ module.exports = {
         'third-color': '#00FF84',
         'fourth-color': '#F9CCC7',
         'btn-color': '#F44335',
-        'card-bg': '#2D3142'
+        'card-bg': '#2D3142',
+        'dark-bg': '#1F2937',
+        'sec-dark-bg': '#2C3E50'
       },
 
       backgroundImage: { 

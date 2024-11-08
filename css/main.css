@@ -5,7 +5,7 @@
 
 @layer components{
     .nav-item{
-        @apply text-sec-text-color hover:text-btn-color hover:underline transition-all duration-300 font-medium;
+        @apply text-sec-text-color dark:text-white hover:text-btn-color dark:hover:text-btn-color hover:underline transition-all duration-300 font-medium;
     }
 
     .btn-primary{
@@ -17,10 +17,10 @@
     }
 
     .skill{
-        @apply rounded-full border border-btn-color text-base px-2 py-1 text-nowrap;
+        @apply rounded-full border border-btn-color text-base px-2 py-1 text-nowrap text-sec-text-color dark:text-white;
     }
 
     .course{
-        @apply text-sec-text-color rounded-full border border-sec-text-color px-4 py-2 text-nowrap;
+        @apply text-sec-text-color dark:text-white rounded-full border border-sec-text-color dark:border-white px-4 py-2 text-nowrap;
     }
 }
